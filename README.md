@@ -1,0 +1,5 @@
+# springsecurity-cas
+springsecurity整合cas
+
+springsecurity的springsecurityfilterchian中有一个cas的拦截器位置，因此可以通过它把cas整合进springsecurity中
+cas负责认证，security通过userDetails负责加载权限，通过认证管理器赋予权限
